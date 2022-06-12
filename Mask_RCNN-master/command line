@@ -1,0 +1,12 @@
+conda create -n test python=3.6
+conda activate test
+pip install tensorflow-gpu==1.5.0
+pip install keras==2.0.8
+conda install -c anaconda cudatoolkit==9.0
+conda install -c anaconda cudnn
+pip install jupyter
+cd 
+pip install -r requirements.txt
+jupyter notebook
+
+geforce rtx 2070 super
