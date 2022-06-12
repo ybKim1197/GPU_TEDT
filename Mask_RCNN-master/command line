@@ -9,4 +9,6 @@ cd
 pip install -r requirements.txt
 jupyter notebook
 
-geforce rtx 2070 super
+RTX 3060
+conda create -n test python=3.8
+conda install -c anaconda cudatoolkit==11.1
